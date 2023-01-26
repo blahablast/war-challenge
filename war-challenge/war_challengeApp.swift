@@ -11,7 +11,7 @@ import SwiftUI
 struct war_challengeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(playerCard: "", cpuCard: "", playerScore: 0, cpuScore: 0)
         }
     }
 }
